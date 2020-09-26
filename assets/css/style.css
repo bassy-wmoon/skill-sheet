@@ -18,13 +18,13 @@
   background-color: deepskyblue;
   font-size: 1.1rem;
 }
-html {
-  font-size: 0.75rem;
-}
+
 .phase-header, .period, .scale-list, .language-list, .db-list, .server-os-list, .fw-mw-tool-list {
   list-style-type: none;
-  padding-inline-start: 0px;
   margin-bottom: 0.5rem;
+  padding-inline-start: 0 !important;
+  -webkit-padding-start: 0 !important;
+  -moz-padding-start: 0 !important;
 }
 
 .print {
